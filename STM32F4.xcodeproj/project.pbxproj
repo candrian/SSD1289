@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		DE543A501963308100379704 /* SSD1289.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSD1289.h; sourceTree = "<group>"; };
+		DE543A511963308A00379704 /* SSD1289.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SSD1289.c; sourceTree = "<group>"; };
+		DE543A521963315D00379704 /* Build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Build.sh; sourceTree = "<group>"; };
+		DE543A531963316200379704 /* Flash.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Flash.sh; sourceTree = "<group>"; };
+		DEE95A511962D7CB00151AB9 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		DEE95A521962D7CB00151AB9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DEE95A531962D7CB00151AB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		DEE95A541962DA1A00151AB9 /* selftest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selftest.h; sourceTree = SOURCE_ROOT; };
+		DEE95A551962DA1A00151AB9 /* stm32f4xx_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stm32f4xx_conf.h; sourceTree = SOURCE_ROOT; };
+		DEE95A561962DA1A00151AB9 /* stm32f4xx_it.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stm32f4xx_it.h; sourceTree = SOURCE_ROOT; };
+		DEE95A571962DA1A00151AB9 /* usb_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usb_conf.h; sourceTree = SOURCE_ROOT; };
+		DEE95A581962DA1A00151AB9 /* usbd_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbd_conf.h; sourceTree = SOURCE_ROOT; };
+		DEE95A591962DA1A00151AB9 /* usbd_desc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbd_desc.h; sourceTree = SOURCE_ROOT; };
+		DEE95A5A1962DA1A00151AB9 /* selftest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = selftest.c; sourceTree = SOURCE_ROOT; };
+		DEE95A5B1962DA1A00151AB9 /* stm32f4xx_it.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stm32f4xx_it.c; sourceTree = SOURCE_ROOT; };
+		DEE95A5C1962DA1A00151AB9 /* system_stm32f4xx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = system_stm32f4xx.c; sourceTree = SOURCE_ROOT; };
+		DEE95A5D1962DA1A00151AB9 /* usb_bsp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usb_bsp.c; sourceTree = SOURCE_ROOT; };
+		DEE95A5E1962DA1A00151AB9 /* usbd_desc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbd_desc.c; sourceTree = SOURCE_ROOT; };
+		DEE95A5F1962DA1A00151AB9 /* usbd_usr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbd_usr.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		46EE52561482605500F8A05F = {
+			isa = PBXGroup;
+			children = (
+				DE543A4F1963306600379704 /* LCD_SSD1289 */,
+				DEE95A501962D7B300151AB9 /* Project */,
+				DEE95A431962D79300151AB9 /* Device */,
+			);
+			sourceTree = "<group>";
+		};
+		DE543A4F1963306600379704 /* LCD_SSD1289 */ = {
+			isa = PBXGroup;
+			children = (
+				DE543A501963308100379704 /* SSD1289.h */,
+				DE543A511963308A00379704 /* SSD1289.c */,
+			);
+			name = LCD_SSD1289;
+			sourceTree = "<group>";
+		};
+		DEE95A431962D79300151AB9 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				DEE95A541962DA1A00151AB9 /* selftest.h */,
+				DEE95A551962DA1A00151AB9 /* stm32f4xx_conf.h */,
+				DEE95A561962DA1A00151AB9 /* stm32f4xx_it.h */,
+				DEE95A571962DA1A00151AB9 /* usb_conf.h */,
+				DEE95A581962DA1A00151AB9 /* usbd_conf.h */,
+				DEE95A591962DA1A00151AB9 /* usbd_desc.h */,
+				DEE95A5A1962DA1A00151AB9 /* selftest.c */,
+				DEE95A5B1962DA1A00151AB9 /* stm32f4xx_it.c */,
+				DEE95A5C1962DA1A00151AB9 /* system_stm32f4xx.c */,
+				DEE95A5D1962DA1A00151AB9 /* usb_bsp.c */,
+				DEE95A5E1962DA1A00151AB9 /* usbd_desc.c */,
+				DEE95A5F1962DA1A00151AB9 /* usbd_usr.c */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		DEE95A501962D7B300151AB9 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				DEE95A511962D7CB00151AB9 /* main.h */,
+				DEE95A521962D7CB00151AB9 /* main.c */,
+				DEE95A531962D7CB00151AB9 /* Makefile */,
+				DE543A521963315D00379704 /* Build.sh */,
+				DE543A531963316200379704 /* Flash.sh */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		46EE525F1482605500F8A05F /* flash */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 46EE526B1482605500F8A05F /* Build configuration list for PBXLegacyTarget "flash" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Candrian/Documents/ARM_Projects/STM32F4-SSD1289/Flash.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = flash;
+			passBuildSettingsInEnvironment = 1;
+			productName = flash;
+		};
+		DE543A5C196331F300379704 /* build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = DE543A5D196331F300379704 /* Build configuration list for PBXLegacyTarget "build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Candrian/Documents/ARM_Projects/STM32F4-SSD1289/Build.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = build;
+			passBuildSettingsInEnvironment = 1;
+			productName = flash;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		46EE52581482605500F8A05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 46EE525B1482605500F8A05F /* Build configuration list for PBXProject "STM32F4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46EE52561482605500F8A05F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46EE525F1482605500F8A05F /* flash */,
+				DE543A5C196331F300379704 /* build */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		46EE52631482605500F8A05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "$PATH:/Applications/Arm/arm-cs-tools/bin:/usr/local/bin/openocd\n";
+				PRODUCT_NAME = "";
+			};
+			name = Debug;
+		};
+		46EE52641482605500F8A05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "$PATH:/Applications/Arm/arm-cs-tools/bin:/usr/local/bin/openocd\n";
+				PRODUCT_NAME = "";
+			};
+			name = Release;
+		};
+		46EE526C1482605500F8A05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PATH = "$PATH:/Applications/Arm/arm-cs-tools/bin:/usr/local/bin/openocd:/Users/Candrian/Library/Developer/Xcode/Templates/Project_Templates/ARM/STM32F4-Discovery.xctemplate:\n";
+			};
+			name = Debug;
+		};
+		46EE526D1482605500F8A05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PATH = "$PATH:/Applications/Arm/arm-cs-tools/bin:/usr/local/bin/openocd:/Users/Candrian/Library/Developer/Xcode/Templates/Project_Templates/ARM/STM32F4-Discovery.xctemplate:\n";
+			};
+			name = Release;
+		};
+		DE543A5E196331F300379704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PATH = "$PATH:/Applications/Arm/arm-cs-tools/bin:/usr/local/bin/openocd:/Users/Candrian/Library/Developer/Xcode/Templates/Project_Templates/ARM/STM32F4-Discovery.xctemplate:\n";
+				PRODUCT_NAME = "flash copy";
+			};
+			name = Debug;
+		};
+		DE543A5F196331F300379704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PATH = "$PATH:/Applications/Arm/arm-cs-tools/bin:/usr/local/bin/openocd:/Users/Candrian/Library/Developer/Xcode/Templates/Project_Templates/ARM/STM32F4-Discovery.xctemplate:\n";
+				PRODUCT_NAME = "flash copy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EE525B1482605500F8A05F /* Build configuration list for PBXProject "STM32F4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE52631482605500F8A05F /* Debug */,
+				46EE52641482605500F8A05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EE526B1482605500F8A05F /* Build configuration list for PBXLegacyTarget "flash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE526C1482605500F8A05F /* Debug */,
+				46EE526D1482605500F8A05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE543A5D196331F300379704 /* Build configuration list for PBXLegacyTarget "build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE543A5E196331F300379704 /* Debug */,
+				DE543A5F196331F300379704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EE52581482605500F8A05F /* Project object */;
+}
